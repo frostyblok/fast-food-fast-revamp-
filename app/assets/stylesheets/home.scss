@@ -1,0 +1,49 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.effective {
+  padding: 90px 0px;
+  background-color: indianred;
+  background-size: 100%;
+}
+.effect-text-style {
+  color: white;
+  margin-bottom: 9px;
+}
+.effect-color {color: #efef6f;}
+.effect-texxt-style {
+  color: white;
+  font-size: 17px;
+  margin-top: 1px;
+  font-family: 'Indie Flower', cursive;
+}
+
+.work-model {color: #be1417;}
+.how-works {
+  text-align: center;
+  float: left;
+  width: 100%;
+}
+.works-text {
+  margin: 35px;
+}
+.works-paradigm {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.works-paradigm > div {
+  width: 24%;
+}
+.order-food {margin-right: 15%;}
+.recieve-food {margin-right: 15%; padding-top: 24px;}
+.enjoy-food {padding-top: 31px;}
+.paradigm-style {list-style: none; padding: 0px;}
+.paradigm-style li h4 {font-size: 20px; margin-bottom: 0px;}
+.paradigm-style li p {font-family: 'Indie Flower', cursive;}
+.paradigm-image__order { width: 70%; height: 140px;}
+.paradigm-image__receive { width: 70%; height: 116px;}
+.paradigm-image__deliver { width: 70%; height: 109px;}
+#font-opac {font-size: 110px; opacity: 0.7;}

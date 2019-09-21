@@ -15,6 +15,7 @@
  */
 @import "bulma";
 @import "devise";
+@import "home";
 
 .notification {
     border-radius: 0;
@@ -28,4 +29,23 @@
 
 .notification:not(:last-child) {
     margin-bottom: 0;
+}
+#logo {
+    font-size: 26px;
+    color: #d04040;
+    position: relative;
+    margin-right: 15px;
+}
+footer {
+    height: 5%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #c53f41;
+    color: #dadaca;
+}
+.copyright {
+    text-align: center;
+    font-size: 16px;
+    padding-top: 10px;
 }
